@@ -14,7 +14,7 @@ The objective of this assignment was to:
 The dataset used in this analysis contains **sales transactions** with the following columns:
 
 - **date**: The transaction date (monthly).
-- **region**: The geographical region where sales occurred (North, South, East, West).
+- **region**: The geographical region where sales occurred (Nigeria, South Africa, Ethiopia, Kenya).
 - **product**: The type of product sold (Laptop, Phone, Tablet).
 - **sales**: The sales amount in USD.
 
@@ -43,7 +43,7 @@ The dataset used in this analysis contains **sales transactions** with the follo
    Sales fluctuated month to month, showing peaks in certain months.  
 
 2. **Bar Chart (Average Sales by Region)**  
-   The **West** region recorded the highest average sales.  
+   The **Kenya** region recorded the highest average sales.  
 
 3. **Histogram (Sales Distribution)**  
    Sales values were concentrated around mid-range amounts, with fewer very high sales.  
