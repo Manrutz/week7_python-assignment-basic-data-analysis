@@ -1,0 +1,16 @@
+import pandas as pd
+
+# Create sample sales data
+data = {
+    "date": pd.date_range(start="2024-01-01", periods=12, freq="M"),
+    "region": ["Nigeria", "South Africa", "Ethiopia", "Kenya"] * 3,
+    "product": ["Laptop", "Phone", "Tablet"] * 4,
+    "sales": [1200, 800, 950, 1500, 2000, 1800, 1100, 750, 1300, 1700, 1600, 1400]
+}
+
+df = pd.DataFrame(data)
+
+# Save as CSV (if needed)
+df.to_csv("sales.csv", index=False)
+
+print(df.head())
