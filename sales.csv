@@ -1,5 +1,3 @@
-import pandas as pd
-
 # Create sample sales data
 data = {
     "date": pd.date_range(start="2024-01-01", periods=12, freq="M"),
@@ -12,5 +10,6 @@ df = pd.DataFrame(data)
 
 # Save as CSV (if needed)
 df.to_csv("sales.csv", index=False)
+
 
 print(df.head())
